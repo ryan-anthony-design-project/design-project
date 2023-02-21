@@ -23,7 +23,8 @@ body, .nav-bar {
     color: white;
     border: 10px solid white;
     line-height: 115px;
-
+    margin-left: 2.5em;
+    margin-right: 2.5em;
 }
 
 .icon-header2 {
@@ -36,7 +37,8 @@ body, .nav-bar {
     color: white;
     border: 10px solid white;
     line-height: 115px;
-
+    margin-left: 2.5em;
+    margin-right: 2.5em;
 }
 
 .icon-header3 {
@@ -49,7 +51,8 @@ body, .nav-bar {
     color: white;
     border: 10px solid white;
     line-height: 115px;
-
+    margin-left: 2.5em;
+    margin-right: 2.5em;
 
 }
 
@@ -63,13 +66,14 @@ body, .nav-bar {
     color: white;
     border: 10px solid white;
     line-height: 115px;
-
+    margin-left: 2.5em;
+    margin-right: 2.5em;
 
 }
 
-/*.icon {*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    text-align:center;*/
-/*}*/
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+}
