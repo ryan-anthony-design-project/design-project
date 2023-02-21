@@ -77,3 +77,24 @@ body, .nav-bar {
     justify-content: center;
     text-align:center;
 }
+
+.icon-rule {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-body img {
+    margin: .6em;
+    border: 5px solid #d5d5d5;
+}
+
+.small-circles {
+    height: 18px;
+    width: 18px;
+    background-color: #E6563B;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 18px;
+    font-size: small;
+}
