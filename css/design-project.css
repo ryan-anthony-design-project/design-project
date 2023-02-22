@@ -2,16 +2,62 @@ body, .nav-bar {
     background-color: #f0f0f0;
 }
 
+.nav-item {
+    font-family: 'Abel', sans-serif;
+}
+
 .nav-links {
     width: 105px;
     height: 105px;
 }
+
+.nav-link-item {
+    font-size: x-small;
+}
+
+.codeup-link {
+    font-size: x-large;
+    line-height: 10px;
+}
+
+
+/*Headers and paragraphs*/
 
 .header {
     text-align: center;
     font-family: 'Anton', sans-serif;
 }
 
+.selected-work {
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+}
+
+.the-last {
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+}
+
+h5 {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    margin-left: 1em;
+    font-size: x-large;
+}
+
+.featured-project {
+    margin-left: .5em;
+    font-family: 'Abel', sans-serif;
+}
+
+.last-tweet {
+    font-family: 'Abel', sans-serif;
+    margin-left: 2em;
+    margin-right: auto;
+}
+
+
+/*icons*/
 
 .icon-header1 {
     height: 130px;
@@ -75,7 +121,7 @@ body, .nav-bar {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align:center;
+    text-align: center;
 }
 
 .icon-rule {
@@ -84,17 +130,60 @@ body, .nav-bar {
     margin-right: auto;
 }
 
-.main-body img {
-    margin: .6em;
-    border: 5px solid #d5d5d5;
-}
+
 
 .small-circles {
     height: 18px;
     width: 18px;
-    background-color: #E6563B;
     border-radius: 50%;
     display: inline-block;
     line-height: 18px;
     font-size: small;
+    margin-left: .2em;
+    margin-right: .2em;
+
 }
+
+.design {
+    background-color: #E6563B;
+
+}
+
+.develop {
+    background-color: #EB9D3A;
+
+}
+
+.support {
+    background-color: #7CB06C;
+
+}
+
+.host {
+    background-color: #00ABA9;
+
+}
+
+
+/*images*/
+
+.selected-work-image img {
+    margin: .6em;
+    border: 5px solid #d5d5d5;
+
+}
+
+.last-images {
+    height: 100px;
+    width: 100px;
+    border: 5px solid #e6e6e6;
+    margin-left: 2em;
+}
+
+.selected-images {
+    height: 300px;
+    width: 100%;
+}
+
+
+
